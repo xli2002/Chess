@@ -15,6 +15,7 @@ public abstract class Piece {
         this.type = type;
     }
 
+
     public Cell getCell(){
         return cell;
     }
