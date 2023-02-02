@@ -7,8 +7,12 @@ import java.util.Arrays;
 public class Board {
 
     private Cell[][] cells;
+    private IDeletedPieceManager deletedPieceManager;
 
     public Board(){
+
+        deletedPieceManager = new DeletedPieceManager();
+
         cells = new Cell[8][8];
         //to create every cell
         for (int i = 0; i < 8; i++) {
@@ -17,6 +21,7 @@ public class Board {
             }
         }
     }
+
 
     public void highlight(ListCoor coordinates){
 //        Coordinate c;
