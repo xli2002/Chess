@@ -1,0 +1,558 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"a220e578-8d4a-4eb1-b77a-ce534cd46f65\" name=\"Changes\" comment=\"initial commit\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/model/Board.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/model/Cell.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/model/Piece.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/PruebaMain.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/PruebaMain.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/model/CoordinateTest.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/model/CoordinateTest.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"JUnit5 Test Class\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2K6KbARxzwPjyU7PE76gc3r7LBc\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,\r\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateTestDialog.Recents.Supers\">\r\n      <recent name=\"\" />\r\n    </key>\r\n    <key name=\"CreateTestDialog.RecentsKey\">\r\n      <recent name=\"model\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"a220e578-8d4a-4eb1-b77a-ce534cd46f65\" name=\"Changes\" comment=\"\" />\r\n      <created>1673289664289</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1673289664289</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"initial commit\">\r\n      <created>1673378169188</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1673378169188</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"initial commit\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"initial commit\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/.idea/workspace.xml	(date 1674477696251)
+@@ -5,12 +5,16 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="a220e578-8d4a-4eb1-b77a-ce534cd46f65" name="Changes" comment="initial commit">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Board.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Cell.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Piece.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/model/Knight.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/model/KnightBlack.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/model/KnightWhite.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/model/Tool.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/main/java/PruebaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PruebaMain.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/model/CoordinateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/CoordinateTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Board.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cell.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/model/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Coordinate.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Piece.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -21,6 +25,7 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="JUnit5 Test Class" />
++        <option value="Enum" />
+         <option value="Class" />
+       </list>
+     </option>
+@@ -30,13 +35,6 @@
+   </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+-  </component>
+-  <component name="MavenImportPreferences">
+-    <option name="importingSettings">
+-      <MavenImportingSettings>
+-        <option name="workspaceImportEnabled" value="true" />
+-      </MavenImportingSettings>
+-    </option>
+   </component>
+   <component name="ProjectId" id="2K6KbARxzwPjyU7PE76gc3r7LBc" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+@@ -59,6 +57,10 @@
+     <key name="CreateTestDialog.Recents.Supers">
+       <recent name="" />
+     </key>
++    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
++      <recent name="model" />
++      <recent name="" />
++    </key>
+     <key name="CreateTestDialog.RecentsKey">
+       <recent name="model" />
+     </key>
+@@ -81,6 +83,17 @@
+     </task>
+     <option name="localTasksCounter" value="2" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="initial commit" />
+Index: src/main/java/model/Coordinate.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\npublic class Coordinate {\r\n    private char letter;\r\n    private int number;\r\n\r\n    public Coordinate(char letter, int number) {\r\n        this.letter = Character.toUpperCase(letter);\r\n        this.number = number;\r\n    }\r\n\r\n    public char getLetter() {\r\n        return letter;\r\n    }\r\n    public int getNumber() {\r\n        return number;\r\n    }\r\n\r\n    public Coordinate up() {\r\n        return new Coordinate(letter, number - 1);\r\n    }\r\n    public Coordinate down() {\r\n        return new Coordinate(letter, number + 1);\r\n    }\r\n    public Coordinate left() {\r\n        return new Coordinate((char)(letter-1), number);\r\n    }\r\n    public Coordinate right() {\r\n        return new Coordinate((char)(letter+1), number);\r\n    }\r\n    public Coordinate diagonalUpLeft() {\r\n        return up().left();\r\n    }\r\n    public Coordinate diagonalUpRight() {\r\n        return up().right();\r\n    }\r\n    public Coordinate diagonalDownLeft() {\r\n        return down().left();\r\n    }\r\n    public Coordinate diagonalDownRight() {\r\n        return down().right();\r\n    }\r\n@Override\r\n    public String toString() {\r\n        return \"(\" + letter + \",\" + number + \")\";\r\n}\r\n\r\n@Override\r\n    public boolean equals(Object o) {\r\n        if(! (o instanceof Coordinate))\r\n            return false;\r\n        Coordinate c = (Coordinate) o;\r\n        return (c.getLetter() == this.letter)\r\n                && (c.getNumber() == this.number);\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Coordinate.java b/src/main/java/model/Coordinate.java
+--- a/src/main/java/model/Coordinate.java	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/src/main/java/model/Coordinate.java	(date 1674130393957)
+@@ -1,32 +1,32 @@
+ package model;
+ 
+ public class Coordinate {
+-    private char letter;
+-    private int number;
++    private char column;
++    private int row;
+ 
+-    public Coordinate(char letter, int number) {
+-        this.letter = Character.toUpperCase(letter);
+-        this.number = number;
++    public Coordinate(char column, int row) {
++        this.column = Character.toUpperCase(column);
++        this.row = row;
+     }
+ 
+-    public char getLetter() {
+-        return letter;
++    public char getColumn() {
++        return column;
+     }
+-    public int getNumber() {
+-        return number;
++    public int getRow() {
++        return row;
+     }
+ 
+     public Coordinate up() {
+-        return new Coordinate(letter, number - 1);
++        return new Coordinate(column, row - 1);
+     }
+     public Coordinate down() {
+-        return new Coordinate(letter, number + 1);
++        return new Coordinate(column, row + 1);
+     }
+     public Coordinate left() {
+-        return new Coordinate((char)(letter-1), number);
++        return new Coordinate((char)(column -1), row);
+     }
+     public Coordinate right() {
+-        return new Coordinate((char)(letter+1), number);
++        return new Coordinate((char)(column +1), row);
+     }
+     public Coordinate diagonalUpLeft() {
+         return up().left();
+@@ -40,9 +40,10 @@
+     public Coordinate diagonalDownRight() {
+         return down().right();
+     }
++
+ @Override
+     public String toString() {
+-        return "(" + letter + "," + number + ")";
++        return "(" + column + "," + row + ")";
+ }
+ 
+ @Override
+@@ -50,8 +51,8 @@
+         if(! (o instanceof Coordinate))
+             return false;
+         Coordinate c = (Coordinate) o;
+-        return (c.getLetter() == this.letter)
+-                && (c.getNumber() == this.number);
++        return (c.getColumn() == this.column)
++                && (c.getRow() == this.row);
+     }
+ 
+ }
+Index: src/main/java/model/Tool.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Tool.java b/src/main/java/model/Tool.java
+new file mode 100644
+--- /dev/null	(date 1674474228188)
++++ b/src/main/java/model/Tool.java	(date 1674474228188)
+@@ -0,0 +1,14 @@
++package model;
++
++import model.Coordinate;
++
++public class Tool {
++
++    public static Coordinate[] add(Coordinate[] coordinates, Coordinate c){
++        Coordinate[] aux = new Coordinate[coordinates.length + 1];
++        System.arraycopy(coordinates,0,aux,0,coordinates.length);
++        aux[aux.length-1] = c;
++        return aux;
++    }
++
++}
+Index: src/main/java/model/Knight.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Knight.java b/src/main/java/model/Knight.java
+new file mode 100644
+--- /dev/null	(date 1674474228205)
++++ b/src/main/java/model/Knight.java	(date 1674474228205)
+@@ -0,0 +1,54 @@
++package model;
++
++public abstract class Knight extends Piece {
++
++    private Coordinate[] nextMovementCoordinates;
++
++    public Knight(Type type, Cell cell) {
++        super(type, cell);
++    }
++
++    public Coordinate[] getNextMovements() {
++        nextMovementCoordinates = new Coordinate[0];
++        Coordinate position = getCell().getCoordinate();
++        Coordinate c;
++
++        //Up
++        c = position.up().up().right();
++        check(c);
++        c = position.up().up().left();
++        check(c);
++
++        //Down
++        c = position.down().down().left();
++        check(c);
++        c = position.down().down().right();
++        check(c);
++
++        //Left
++        c = position.left().left().up();
++        check(c);
++        c = position.left().left().down();
++        check(c);
++
++        //right
++        c = position.right().right().down();
++        check(c);
++        c = position.right().right().up();
++        check(c);
++
++        return nextMovementCoordinates;
++
++    }
++
++    public void check(Coordinate c) {
++        Board board = getCell().getBoard();
++
++        if (board.getCell(c) != null) {
++            if ((board.getCell(c).isEmpty()) || (board.getCell(c).getPiece().getColor() != getColor()))
++                nextMovementCoordinates = Tool.add(nextMovementCoordinates, c);
++        }
++
++    }
++
++}
+Index: src/main/java/PruebaMain.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import model.*;\r\n\r\npublic class PruebaMain {\r\n\r\n    public static void main(String[] args) {\r\n        Coordinate c1 = new Coordinate('G',1);\r\n        Board tablero = new Board();\r\n        Cell celda = new Cell(tablero, c1);\r\n        Piece caballoBlanco = new Piece(Piece.Type.WHITE_KNIGHT,celda);\r\n        System.out.println(caballoBlanco);\r\n        Piece caballoNegro = new Piece(Piece.Type.BLACK_KNIGHT,celda);\r\n        System.out.println(caballoNegro);\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/PruebaMain.java b/src/main/java/PruebaMain.java
+--- a/src/main/java/PruebaMain.java	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/src/main/java/PruebaMain.java	(date 1674477696323)
+@@ -3,13 +3,16 @@
+ public class PruebaMain {
+ 
+     public static void main(String[] args) {
+-        Coordinate c1 = new Coordinate('G',1);
+-        Board tablero = new Board();
+-        Cell celda = new Cell(tablero, c1);
+-        Piece caballoBlanco = new Piece(Piece.Type.WHITE_KNIGHT,celda);
+-        System.out.println(caballoBlanco);
+-        Piece caballoNegro = new Piece(Piece.Type.BLACK_KNIGHT,celda);
+-        System.out.println(caballoNegro);
++        Board b = new Board();
++        System.out.println(b);
++
++        b.placePieces();
++        Coordinate[] coordinates = b.getCell(new Coordinate('C',6)).getPiece().getNextMovements();
++        b.highlight(coordinates);
++        System.out.println(b);
++        b.resetColors();
++        System.out.println(b);
++
+     }
+ 
+ 
+Index: src/main/java/model/Piece.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\nimport com.diogonunes.jcolor.Attribute;\r\nimport static com.diogonunes.jcolor.Ansi.colorize;\r\n\r\npublic class Piece {\r\n    private Type type;\r\n    private Cell cell;\r\n\r\n    public Piece(Type type, Cell cell) {\r\n        this.cell = cell;\r\n        this.type = type;\r\n    }\r\n\r\n    @Override\r\n    public String toString(){\r\n        return colorize(this.type.getShape(),this.type.getColor().getPieceColor());\r\n    }\r\n\r\n    public enum Color{\r\n        WHITE(Attribute.TEXT_COLOR(250)),\r\n        BLACK(Attribute.TEXT_COLOR(16));\r\n        private final Attribute pieceColor;\r\n        private Color(Attribute pieceColor){\r\n            this.pieceColor = pieceColor;\r\n        }\r\n        public Attribute getPieceColor() { return pieceColor;}\r\n        public Color next(){\r\n            if(this.equals(WHITE))\r\n                return BLACK;\r\n            return WHITE;\r\n        }\r\n    }\r\n\r\n    public enum Type{\r\n        WHITE_KING(\"\\u265A\", Color.WHITE),\r\n        BLACK_KING(\"\\u265A\", Color.BLACK),\r\n        WHITE_QUEEN(\"\\u265B\", Color.WHITE),\r\n        BLACK_QUEEN(\"\\u265B\", Color.BLACK),\r\n        WHITE_ROOK(\"\\u265C\", Color.WHITE),\r\n        BLACK_ROOK(\"\\u265C\", Color.BLACK),\r\n        WHITE_BISHOP(\"\\u265D\", Color.WHITE),\r\n        BLACK_BISHOP(\"\\u265D\", Color.BLACK),\r\n        WHITE_KNIGHT(\"\\u265E\", Color.WHITE),\r\n        BLACK_KNIGHT(\"\\u265E\", Color.BLACK),\r\n        WHITE_PAWN(\"\\u2659\", Color.WHITE),\r\n        BLACK_PAWN(\"\\u2659\", Color.BLACK);\r\n        private String shape;\r\n        private Color color;\r\n        private Type(String shape, Color color) {\r\n            this.color = color;\r\n            this.shape = shape;\r\n        }\r\n        public Color getColor() {\r\n            return color;\r\n        }\r\n        public String getShape() {\r\n            return shape;\r\n        }\r\n\r\n    }\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Piece.java b/src/main/java/model/Piece.java
+--- a/src/main/java/model/Piece.java	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/src/main/java/model/Piece.java	(date 1674478679419)
+@@ -3,7 +3,8 @@
+ import com.diogonunes.jcolor.Attribute;
+ import static com.diogonunes.jcolor.Ansi.colorize;
+ 
+-public class Piece {
++public abstract class Piece {
++
+     private Type type;
+     private Cell cell;
+ 
+@@ -11,14 +12,23 @@
+         this.cell = cell;
+         this.type = type;
+     }
++    public Color getColor() {
++        return type.color;
++    }
++    public Cell getCell() {
++        return cell;
++    }
++    public void putInYourPlace() { cell.setPiece(this);}
++
++    public abstract Coordinate[] getNextMovements();
+ 
+     @Override
+     public String toString(){
+-        return colorize(this.type.getShape(),this.type.getColor().getPieceColor());
++        return colorize(type.toString(),type.color.getPieceColor(),cell.getColor().getAttribute());
+     }
+ 
+     public enum Color{
+-        WHITE(Attribute.TEXT_COLOR(250)),
++        WHITE(Attribute.TEXT_COLOR(255)),
+         BLACK(Attribute.TEXT_COLOR(16));
+         private final Attribute pieceColor;
+         private Color(Attribute pieceColor){
+@@ -58,6 +68,10 @@
+             return shape;
+         }
+ 
++        @Override
++        public String toString() {
++            return String.valueOf(shape);
++        }
+     }
+ 
+ 
+Index: src/main/java/model/KnightWhite.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/KnightWhite.java b/src/main/java/model/KnightWhite.java
+new file mode 100644
+--- /dev/null	(date 1674475017318)
++++ b/src/main/java/model/KnightWhite.java	(date 1674475017318)
+@@ -0,0 +1,9 @@
++package model;
++
++public class KnightWhite extends Knight{
++
++    public KnightWhite(Cell cell) {
++        super(Type.WHITE_KNIGHT, cell);
++    }
++
++}
+Index: src/main/java/model/Board.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\npublic class Board {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Board.java b/src/main/java/model/Board.java
+--- a/src/main/java/model/Board.java	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/src/main/java/model/Board.java	(date 1674477566738)
+@@ -1,4 +1,59 @@
+ package model;
+ 
+ public class Board {
++
++    Cell[][] cells;
++
++    public Board() {
++        cells = new Cell[8][8];
++        for (int i = 0; i < 8; i++) {
++            for (int j = 0; j < 8; j++) {
++                cells[i][j] = new Cell(this, new Coordinate((char) ('A' + j), i + 1));
++            }
++        }
++    }
++
++    public Cell getCell(Coordinate coordinate) {
++        if (coordinate.getRow() < 1 || coordinate.getRow() > 8)
++            return null;
++        if (coordinate.getColumn() < 'A' || coordinate.getColumn() > 'H')
++            return null;
++
++        return cells[coordinate.getRow()-1][coordinate.getColumn()-'A'];
++    }
++
++    public void highlight(Coordinate[] coordinates){
++        for(Coordinate c : coordinates)
++            getCell(c).highligh();
++    }
++
++    public void resetColors(){
++        for (Cell[] row : cells)
++            for(Cell c : row)
++                c.resetColor();
++    }
++
++    public void placePieces(){
++        Piece p;
++        p = new KnightWhite(getCell(new Coordinate('B',8)));
++        p.putInYourPlace();
++        p = new KnightWhite(getCell(new Coordinate('C',6)));
++        p.putInYourPlace();
++        p = new KnightBlack(getCell(new Coordinate('D',8)));
++        p.putInYourPlace();
++    }
++
++    @Override
++    public String toString() {
++        String output = "   A  B  C  D  E  F  G  H\n";
++        for (int i = 0; i < 8; i++) {
++            output += (i + 1) + " ";
++            for (int j = 0; j < 8; j++) {
++                output += cells[i][j];
++            }
++            output += " " + (i + 1) + "\n";
++        }
++        output += "   A  B  C  D  E  F  G  H";
++        return output;
++    }
+ }
+Index: src/main/java/model/Cell.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package model;\r\n\r\npublic class Cell {\r\n    private Piece piece;\r\n    private Board board;\r\n    private Coordinate coordinate;\r\n\r\n    public Cell(Board board, Coordinate coordinate) {\r\n        this.board = board;\r\n        this.coordinate = coordinate;\r\n        this.piece = null;\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/Cell.java b/src/main/java/model/Cell.java
+--- a/src/main/java/model/Cell.java	(revision 87843aaf1f85d07686289e0db9c9435c2b0deb13)
++++ b/src/main/java/model/Cell.java	(date 1674131333950)
+@@ -1,14 +1,99 @@
+ package model;
+ 
++import com.diogonunes.jcolor.Attribute;
++
++import static com.diogonunes.jcolor.Ansi.colorize;
++
+ public class Cell {
+     private Piece piece;
+     private Board board;
+     private Coordinate coordinate;
++    private Color original;
++    private Color color;
+ 
+     public Cell(Board board, Coordinate coordinate) {
+         this.board = board;
+         this.coordinate = coordinate;
+         this.piece = null;
++        this.original = (
++                (coordinate.getRow() - 1 + coordinate.getColumn() - 'A') % 2 == 0)
++                ?
++                Color.WHITE_CELL
++                :
++                Color.BLACK_CELL;
++        this.color = original;
++    }
++
++    public Piece getPiece() {
++        return piece;
++    }
++
++    public Board getBoard() {
++        return board;
++    }
++
++    public Coordinate getCoordinate() {
++        return coordinate;
++    }
++
++    public Color getColor() {
++        return color;
++    }
++
++    public void setPiece(Piece piece) {
++        this.piece = piece;
++    }
++
++    public boolean isEmpty() {
++        return (piece == null);
++    }
++
++    public void highligh() {
++        if (isEmpty()) {
++            if (original == Color.BLACK_CELL)
++                color = Color.HIGHLIGHT_BLACK;
++            else
++                color = Color.HIGHLIGHT_WHITE;
++
++        } else {
++            color = (original == Color.BLACK_CELL)
++                    ?
++                    Color.HIGHLIGHT_KILL_BLACK
++                    :
++                    Color.HIGHLIGHT_KILL_WHITE;
++        }
++    }
++    public void resetColor() { color = original;}
++
++    @Override
++    public String toString() {
++        if (isEmpty())
++            return colorize("   ", color.getAttribute());
++        else {
++            return colorize(" ", color.getAttribute()) +
++                    piece +
++                    colorize(" ", color.getAttribute());
++
++        }
++    }
++
++    enum Color {
++        WHITE_CELL(Attribute.BACK_COLOR(180, 180, 180)),
++        BLACK_CELL(Attribute.BACK_COLOR(100, 100, 100)),
++        HIGHLIGHT_KILL_WHITE(Attribute.BACK_COLOR(180, 0, 0)),
++        HIGHLIGHT_KILL_BLACK(Attribute.BACK_COLOR(130, 0, 0)),
++        HIGHLIGHT_WHITE(Attribute.BACK_COLOR(180, 180, 0)),
++        HIGHLIGHT_BLACK(Attribute.BACK_COLOR(130, 130, 0));
++
++        private Attribute attribute;
++
++        Color(Attribute attribute) {
++            this.attribute = attribute;
++        }
++
++        public Attribute getAttribute() {
++            return attribute;
++        }
+     }
+ 
+ }
+Index: src/main/java/model/KnightBlack.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/model/KnightBlack.java b/src/main/java/model/KnightBlack.java
+new file mode 100644
+--- /dev/null	(date 1674475017311)
++++ b/src/main/java/model/KnightBlack.java	(date 1674475017311)
+@@ -0,0 +1,9 @@
++package model;
++
++public class KnightBlack extends Knight {
++
++    public KnightBlack(Cell cell) {
++        super(Type.BLACK_KNIGHT, cell);
++    }
++
++}
